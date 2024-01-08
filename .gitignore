@@ -1,0 +1,6 @@
+.gstr
+node_modules
+dist
+.log/
+release
+.env

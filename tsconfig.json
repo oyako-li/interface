@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@assets/*": ["./assets/*"]
+    },
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+  },
+  "include": ["src/**/*"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
